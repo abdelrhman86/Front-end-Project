@@ -1,0 +1,39 @@
+/*******************
+REUSABLE CLASSES
+/*******************/
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  text-decoration: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: white;
+}
+.grid {
+  display: grid;
+  gap: 1.6rem;
+}
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.margin-top-sm {
+  margin-top: 2.4rem;
+}
+.margin-bottom-sm {
+  margin-bottom: 1rem;
+}
